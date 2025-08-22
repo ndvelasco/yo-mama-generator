@@ -70,7 +70,8 @@ const punchlines = [
     "everyone went back to the Stone Age",
     "everyone disappeared",
     "everyone hid from her",
-    "everyone screamed"
+    "everyone screamed",
+    "the food burned"
 ];
 
 function randomize() {
