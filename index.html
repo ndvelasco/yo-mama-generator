@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8" />
     <title>Yo Mama Generator</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <div>
         <h1>Yo Mama Joke Generator</h1>
         
-        <span class="jokeSection" id="1">1</span>
-        <span class="jokeSection" id="2">2</span>
-        <span class="jokeSection" id="3">3</span>
+        <div class="joke">
+            Yo mama so
+            <span class="jokeSection" id="1"></span>,
+            <span class="jokeSection" id="2"></span>
+            <span class="jokeSection" id="3"></span>!
+        </div>
 
-        <button>Randomize!</button>
+        <br>
+
+        <button onclick="randomize()">Randomize!</button>
     </div>
     
 </body>
